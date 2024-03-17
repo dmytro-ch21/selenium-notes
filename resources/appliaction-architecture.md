@@ -59,3 +59,5 @@ These methods allow APIs to perform various operations, transferring and manipul
 >>[<img src="../assets/http-methods.png" width="400">]()
 
 
+###### Click Here &rarr; [Go Back to Table of Contents](../README.md)
+

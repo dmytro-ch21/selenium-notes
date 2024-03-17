@@ -4,11 +4,13 @@
 ## Table Of Contents
 - Basics:
   - [Application Architecture](resources/appliaction-architecture.md)
-  - [Selenium Setup]()
+  - [Selenium Setup](resources/selenium-setup.md)
   - [Browser Methods](resources/browser-developer-tools.md)
-  - [Selenium WebDriver]()
+  - [Selenium WebDriver](resources/selenium-webdriver.md)
 - Getting Into Selenium deeper:
-  - HTML Overview
-  - Selenium Locator Strategies
-  - Useful Methods
-  - Xpath
+  - [HTML Overview](resources/selenium-html-overview.md)
+  - [Selenium Locator Strategies]()
+  - [Useful Methods]()
+  - [Xpath]()
+  - [CSS Selector]()
+  - [Get Information From Elements]()

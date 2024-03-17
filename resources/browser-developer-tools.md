@@ -43,3 +43,5 @@ Once open, you'll see several tabs within the Developer Tools pane. Here are a f
 4. **Enter Selector or XPath**: Type in the CSS selector or XPath expression you want to test. As you type, the Developer Tools will highlight the matching elements in the HTML structure.
 5. **Review Matches**: Look at the highlighted elements to verify that your selector or XPath expression is targeting the correct elements. The search bar will also display the number of matches found.
 6. **Refine Selector or XPath**: If the selector or XPath does not match the expected elements, you can refine it and search again to test the updated expression.
+
+###### Click Here &rarr;[Go Back to Table of Contents](../README.md)

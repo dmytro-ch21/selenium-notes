@@ -51,3 +51,5 @@ We will begin with a simple idea of understanding how to automate the basic acti
 
 - **Description**: This method maximizes the browser window.
 - **Example**: Maximizing the window to ensure that all elements are visible for interaction.
+
+###### Click Here &rarr; [Go Back to Table of Contents](../README.md)

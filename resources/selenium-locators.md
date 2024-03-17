@@ -158,3 +158,6 @@ for(WebElement link: links){
 ```
 
 #### Use cases for findElements():
+
+
+###### Click Here &rarr; [Go Back to Table of Contents](../README.md)
