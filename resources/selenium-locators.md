@@ -119,6 +119,43 @@ WebElement clickHereLink = driver.findElement(By.linkText("Click Here"));
 WebElement clickHereLink = driver.findElement(By.partialLinkText("About"));
 ```
 
+### By.xpath()
+
+> The `By.xpath()` locator in Selenium is used to find elements based on an XPath expression. XPath is a powerful language for navigating through elements and attributes in an XML document, and it can be used to locate elements in an HTML document as well.
+
+- Here is a sample HTML block, and we will need to locate the second list item:
+```html
+<body>
+<ul>
+  <li>List Item 1</li>
+  <li>List Item 2</li>
+  <li>List Item 3</li>
+</ul>
+</body>
+```
+
+- Using By.xpath() locator strategy, we can locate the second list item by its position:
+```java
+WebElement secondListItem = driver.findElement(By.xpath("//ul/li[2]"));
+```
+
+### By.cssSelector()
+
+> The By.cssSelector() locator in Selenium is used to find elements based on a CSS selector. CSS selectors are patterns used to select elements based on their id, class, attributes, and more.
+
+- Here is a sample HTML block, and we will need to locate the button with the class 'primary':
+```html
+<body>
+    <button class="btn primary">Primary Button</button>
+    <button class="btn secondary">Secondary Button</button>
+</body>
+```
+
+- Using By.cssSelector() locator strategy, we can locate the primary button by its class:
+```java
+WebElement primaryButton = driver.findElement(By.cssSelector("button.primary"));
+```
+
 ## Locating one element vs multiple elements
 - So far we discussed how to locate one element. We used some techniques to make sure the locator we will use is unique. However, even if we would provide a locator to `findElement()` that returns multiple results it would pick the very first element.  
 - There are cases that we are interested to access programmatically to multiple elements at the same time. For such cases we will use `findElements()` method. 
@@ -158,6 +195,12 @@ for(WebElement link: links){
 ```
 
 #### Use cases for findElements():
-
+- There are cases that we are interested to access programmatically to multiple elements at the same time. For such cases we will use `findElements()` method.
+  - **Search Results**
+  - **Navigation Menu**
+  - **Checking Checkbox Options**
+  - **Table Data Validation**
+  - **Handling Dynamic Lists**
+  - **Dropdown Options Check**
 
 ###### Click Here &rarr; [Go Back to Table of Contents](../README.md)
