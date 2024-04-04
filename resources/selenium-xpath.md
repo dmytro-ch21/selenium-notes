@@ -294,3 +294,5 @@ Now instead of using index which is not the best approach.
 | `position()`        | Returns the position of a node in a node-set.                                                               | `//p[position()=1]`                            |
 | `last()`            | Returns the last node in a node-set.                                                                        | `//p[last()]`                                  |
 | `normalize-space()` | Strips leading and trailing whitespace and replaces sequences of whitespace characters with a single space. | `//p[normalize-space(text())='Example']`       |
+
+###### Click Here &rarr; [Go Back to Table of Contents](../README.md)

@@ -127,3 +127,5 @@ For example, if a table uses **`<div>`** elements instead of **`<tr>`** and **`<
 - **Practice**: Try working with different tables on websites like [Test Automation Practice](https://testautomationpractice.blogspot.com/) or [OrangeHRM](https://opensource-demo.orangehrmlive.com/).
 - **Be Flexible**: XPath is powerful, but sometimes CSS selectors might be simpler for certain tasks. Use the best tool for the job.
 - **Debugging**: If your XPath isn't working as expected, break it down into smaller parts and test each part separately.
+
+###### Click Here &rarr; [Go Back to Table of Contents](../README.md)

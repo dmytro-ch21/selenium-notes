@@ -20,7 +20,7 @@
 - **ID Selector:** `#id`
 - **Class Selector:** `.class`
 - **Attribute Selector:** `[attribute=value]`
-
+---
 ### **Extended Usage of CSS Selectors**
 | Selector     | Description                                                                 |
 |--------------|-----------------------------------------------------------------------------|
@@ -30,13 +30,13 @@
 | `h1 ~ p`     | Selects all `<p>` elements that follow an `<h1>` element.                   |
 
 > CSS Selectors can be combined and used in complex ways to target specific elements:
-
+---
 ### **Purposes of Using CSS Selectors in Selenium:**
 
 - **Readability:** CSS Selectors are often more concise and easier to understand than XPath.
 - **Performance:** CSS Selectors can be faster than XPath in some browsers.
 - **Compatibility:** CSS Selectors are widely supported across different browsers.
-
+---
 ### **Examples of CSS Selectors:**
 
 | CSS Selector         | Explanation                                                              |
@@ -51,10 +51,10 @@
 | `ul + p`             | Selects the first `<p>` element that directly follows a `<ul>` element.  |
 | `li:first-child `    | Selects the first `<li>` element in each list.                           |
 | `:not(.myClass) `    | Selects all elements that do not have the class myClass.                 |
-
+---
 ### **Practical Examples:**
 
-###### Example HTML
+###### Example HTML 1
 ```html
 <body>
   <div>
@@ -78,7 +78,8 @@
 | Selects elements with a specific attribute and value.       | `[id=third-link-container]` |
 | Selects <tag> elements with a specific attribute and value. | `a[id=second-link]`         |
 
-
+---
+###### Example HTML 2
 ```html
 <div title="unique title">
   <div> First gen
@@ -90,12 +91,15 @@
   </div>
 </div>
 ```
-| Task                                                                    | CSS Selector                          |
-|-------------------------------------------------------------------------|---------------------------------------|
-| Select preceding elements                                               | `tag[attribute=value]>tag>tag`        |
-| Select `<p>` element going from top `<div>` tag                         | `div[title='unique title']>div>div>p` |
-| Select `<p>` element going from top `<div>` tag by skipping generations | `div[title='unique title'] p`         |
+### **CSS Selector Solutions**
+| Task                                                                    | CSS Selector                              |
+|-------------------------------------------------------------------------|-------------------------------------------|
+| Select preceding elements                                               | `tag[attribute=value]>tag>tag`            |
+| Select `<p>` element going from top `<div>` tag                         | `div[title='unique title']>div>div>div>p` |
+| Select `<p>` element going from top `<div>` tag by skipping generations | `div[title='unique title'] p`             |
 
+---
+###### Example HTML 3
 ```html
 <body>
   <div class="link-container">
@@ -113,3 +117,5 @@
 | Selects `<a>` elements whose `name` attribute starts with `long-name`.                           | `a[name^='long-name']`    |
 | Selects `<a>` elements whose `name` attribute ends with `example-link`.                          | `a[name$='example-link']` |
 | Selects `<a>` elements that are descendants of any element with class `create` inside a `<div>`. | `div #example-button a`   |
+
+###### Click Here &rarr; [Go Back to Table of Contents](../README.md)
