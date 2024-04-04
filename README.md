@@ -25,3 +25,5 @@
 - __TestNG:__
   - [Setup]()
   - [Overview]()
+- __Git:__
+  - [Git Commands](resources/git-cheatsheet.md)
